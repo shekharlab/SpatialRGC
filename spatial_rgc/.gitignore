@@ -1,0 +1,10 @@
+data/
+imaging_scripts/images/
+imaging_scripts/mappings/
+figures/
+intermediate_figures/
+**/__pycache__/
+.DS_Store
+*.png
+*.pdf
+*.svg
