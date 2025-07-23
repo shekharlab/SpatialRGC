@@ -8,7 +8,7 @@
 5. [Cite](#cite)
 
 ## Project Overview
-This repository contains analyses for the paper "Molecular and spatial analysis of ganglion cells on retinal flatmounts: diversity, topography, and perivascularity" 
+This repository contains analyses for the paper "Molecular and spatial analysis of ganglion cells on retinal flatmounts identifies perivascular neurons resilient to glaucoma" 
 
 The paper can be accessed here: 
 
