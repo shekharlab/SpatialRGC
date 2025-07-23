@@ -1,4 +1,4 @@
-# Code for "Molecular and spatial analysis of ganglion cells on retinal flatmounts: diversity, topography, and perivascularity"
+# Code for "Molecular and spatial analysis of ganglion cells on retinal flatmounts identifies perivascular neurons resilient to glaucoma"
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
@@ -12,14 +12,15 @@ This repository contains analyses for the paper "Molecular and spatial analysis 
 
 The paper can be accessed here: 
 
-[insert biorxiv link]
+[insert paper link once in print]
 
 ## Repository Structure
 - **spatial_rgc/notebook_scripts/**:
     - **train_models.ipynb** Trains cell type classifiers on reference scRNA-seq datasets
     - **preprocess_data.ipynb**: Preprocesses raw cell by gene matrices
-    - **mosaic_analysis.ipynb**: Runs mosaic analysis and creates associated figure (Figure S7)
-    - **make_figures.ipynb**: Creates all spatial transcriptomics figures aside from the mosaic analysis (Figure S7).
+    - **mosaic_analysis.ipynb**: Runs mosaic analysis and creates associated figure (post revision: Figure S5)
+    - **make_figures.ipynb**: Creates all spatial transcriptomics figures aside from the mosaic analysis (post revision: Figure S5).
+    - ***SOHU_stats.ipynb**: Creates all statistical calculations used for SOHU (Figure 5I, S6H, S6F'-K')
 - **spatial_rgc/utils/**: Contains many util scripts used by the notebooks
 - **spatial_rgc/models/**: Contains models used for cell type classification
 - **spatial_rgc/imaging_scripts/**: Scripts related to segmentation.
@@ -42,10 +43,8 @@ The paper can be accessed here:
 3. Run through all analysis in **spatial_rgc/notebook_scripts/** in the order listed in Repository Structure to generate the figures
 
 ## Usage
-Due to the size of the files, the data directory is empty by default. For running through analyses that only require the cell by gene matrix, see Zenodo. For now, please email [Nicole Tsai](mailto:Nicole.Tsai@ucsf.edu), [Kushal Nimkar](mailto:kushalnimkar@berkeley.edu), [Karthik Shekhar](mailto:kshekhar@berkeley.edu),or [Xin Duan](mailto:Xin.Duan@ucsf.edu) for raw image data from MERFISH. This raw data will be hosted separately soon.
+Due to the size of the files, the data directory is empty by default. For running through analyses that only require the cell by gene matrix, see Zenodo. For now, please email [Nicole Tsai](mailto:Nicole.Tsai@ucsf.edu), [Kushal Nimkar](mailto:kushalnimkar@berkeley.edu), [Karthik Shekhar](mailto:kshekhar@berkeley.edu),or [Xin Duan](mailto:Xin.Duan@ucsf.edu) for raw image data from MERFISH.
 
 ## Cite
 If you find our code, analysis, or results useful and use them in your publications, please cite us using the following citation: 
-
-Tsai, Nimkar, ... Shekhar,Duan. Molecular and spatial analysis of ganglion cells on retinal flatmounts: diversity, topography, and perivascularity, bioRxiv. 2024. 
-
+[insert paper link once in print]
