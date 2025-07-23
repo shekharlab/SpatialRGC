@@ -1034,7 +1034,7 @@ class RunContainer():
         arr=[]
         for j,runs in enumerate(run_groups):
             for i,run in enumerate(runs):
-                adata = sc.read_h5ad(os.path.join("data",run,self.final_f))
+                adata = sc.read_h5ad(os.path.join(self.base_dir,"data",run,self.final_f))
                 print(adata.obs['class'].unique())
                 df = adata.obs.copy()
                 if filt:
